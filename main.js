@@ -22,4 +22,23 @@ arr1[0] // valor de la primera posición
 arr1[4] // valor de la posicion 5
 
 // Obj Key -> value
+var obj = {}
 
+// para asignar un valor a una propiedad de un objeto se utiliza : 
+// para separar propiedades se utiliza la ,
+var obj1 = {
+    miPropiedad: 1,
+    otraPropiedad: 'mi string!!',
+    otraPropiedad2: true,
+    arr: [],
+    obj: {
+        masPropiedades: 'mas propiedades'
+    }
+}
+
+obj1.miPropiedad
+obj1.otraPropiedad2
+
+obj1.obj.masPropiedades
+
+var users =[{ name: 'Nicolas'}, { name: 'Richard'}, { name: 'Luna'}, { name: 'Silvana'}]
